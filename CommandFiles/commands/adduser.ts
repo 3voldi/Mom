@@ -5,7 +5,7 @@ const { delay } = global.utils;
 export const meta: CassidySpectra.CommandMeta = {
   name: "adduser",
   version: "1.5.0",
-  author: "@ntkhang03 | @lianecagara",
+  author: "@ntkhang03 | Christus",
   waitingTime: 5,
   description: "Add a user to your group chat.",
   icon: "👥",
@@ -120,6 +120,6 @@ export async function entry({ input, api, output, args }: CommandContext) {
       ""
     )}`;
   await output.reply(
-    msg.trimEnd() || "💌 Please enter a **valid** sender ID as first argument."
+    msg.trimEnd() || "🤾 Please enter a **valid** sender ID as first argument."
   );
 }
