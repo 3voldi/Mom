@@ -6,13 +6,13 @@
 export const meta = {
   name: "active",
   description: "Lists the top 10 most active users.",
-  author: "Liane Cagara",
+  author: "Christus",
   version: "1.0.0",
   noPrefix: false,
   permissions: [0, 1, 2],
   waitingTime: 3,
   requirement: "3.0.0",
-  icon: "⚡",
+  icon: "🇨🇮",
   category: "User Management",
   cmdType: "smpl_g",
 };
@@ -21,7 +21,7 @@ export const meta = {
  * @type {CassidySpectra.CommandStyle}
  */
 export class style {
-  title = "Most Active Users ⚡";
+  title = "Most Active Users 🇨🇮";
   titleFont = "bold";
   contentFont = "none";
 }
