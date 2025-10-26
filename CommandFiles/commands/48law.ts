@@ -4,7 +4,7 @@ export const meta: CassidySpectra.CommandMeta = {
   version: "1.0.0",
   usage: "{prefix}48law <number>",
   category: "Knowledge",
-  author: "Aljur pogoy",
+  author: "Christus",
   role: 0,
   noPrefix: false,
   waitingTime: 0,
